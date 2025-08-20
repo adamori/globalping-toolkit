@@ -1,4 +1,4 @@
-FROM alpine:3.20
+FROM alpine:3.22
 
 LABEL org.opencontainers.image.title="Globalping Toolkit" \
       org.opencontainers.image.description="A toolkit image with globalping-cli, curl, and other utilities for running checks." \
