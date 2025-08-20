@@ -5,6 +5,8 @@
 
 A lightweight Docker image containing `globalping-cli`, `curl`, and other essential utilities.
 
+Follow the [Globalping CLI documentation](https://github.com/jsdelivr/globalping-cli) for more details on how to use `globalping-cli`.
+
 ## ✨ Features
 
 * **`globalping-cli`**: Comes with `globalping-cli` v1.5.0 pre-installed.
