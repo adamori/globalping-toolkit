@@ -3,7 +3,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/adamiy/globalping-toolkit.svg)](https://hub.docker.com/r/adamiy/globalping-toolkit)
 [![GitHub Stars](https://img.shields.io/github/stars/adamori/globalping-toolkit.svg)](https://github.com/adamori/globalping-toolkit)
 
-A lightweight and flexible Docker toolkit image containing `globalping-cli`, `curl`, and other essential utilities. It's designed to be a generic base for running network availability checks, monitoring tasks, and other automations without a fixed entrypoint.
+A lightweight Docker image containing `globalping-cli`, `curl`, and other essential utilities.
 
 ## ✨ Features
 
@@ -41,7 +41,7 @@ docker run --rm adamiy/globalping-toolkit:latest globalping http example.com fro
 
 ### Usage with Kubernetes (CronJob Example)
 
-This image is perfect for running scheduled jobs in Kubernetes. The example below defines a basic health check that runs every 15 minutes. The job's success or failure depends on the exit code of the `globalping` command.
+This image is suitable for running scheduled jobs in Kubernetes. The example below defines a basic health check that runs every 15 minutes. The job's success or failure depends on the exit code of the `globalping` command.
 
 ```yaml
 # cronjob-example.yaml
