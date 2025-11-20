@@ -10,7 +10,7 @@ Follow the [Globalping CLI documentation](https://github.com/jsdelivr/globalping
 ## ✨ Features
 
 * **`globalping-cli`**: Comes with `globalping-cli` v1.5.0 pre-installed.
-* **Lightweight**: Built on the minimal `alpine:3.20` base image.
+* **Lightweight**: Built on the minimal `alpine:3.22` base image.
 * **Multi-Arch**: Ready to be built for different architectures like `amd64` and `arm64`.
 
 ## 🚀 How to Use
